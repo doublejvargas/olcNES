@@ -18,11 +18,11 @@
     <ClCompile Include="src\bus\Bus.cpp">
       <Filter>bus</Filter>
     </ClCompile>
-    <ClCompile Include="src\olc6502\olc6502.cpp">
-      <Filter>olc6502</Filter>
-    </ClCompile>
     <ClCompile Include="src\test\olcNes_Video1_6502.cpp">
       <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="src\olc6502\olc6502.cpp">
+      <Filter>olc6502</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
