@@ -1310,10 +1310,6 @@ bool olc6502::complete()
 	return cycles == 0;
 }
 
-///////////////////////////////////////////////////////////////////////////////
-// HELPER FUNCTIONS
-///////////////////////////////////////////////////////////////////////////////
-
 // This is the disassembly function. Its workings are not required for emulation.
 // It is merely a convenience function to turn the binary instruction code into
 // human readable form. Its included as part of the emulator because it can take
