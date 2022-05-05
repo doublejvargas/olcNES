@@ -20,12 +20,20 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\bus\Bus.cpp" />
+    <ClCompile Include="src\cartridge\Cartridge.cpp" />
+    <ClCompile Include="src\mapper\Mapper.cpp" />
+    <ClCompile Include="src\mapper\Mapper_000.cpp" />
+    <ClCompile Include="src\olc2C02\olc2C02.cpp" />
     <ClCompile Include="src\olc6502\olc6502.cpp" />
-    <ClCompile Include="src\test\olcNes_Video1_6502.cpp" />
+    <ClCompile Include="src\test\olcNes_Video2_2C02.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\bus\Bus.h" />
+    <ClInclude Include="src\cartridge\Cartridge.h" />
     <ClInclude Include="src\dependencies\olcPixelGameEngine.h" />
+    <ClInclude Include="src\mapper\Mapper.h" />
+    <ClInclude Include="src\mapper\Mapper_000.h" />
+    <ClInclude Include="src\olc2C02\olc2C02.h" />
     <ClInclude Include="src\olc6502\olc6502.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
@@ -106,7 +114,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\dev\olcNES\src\olc6502;C:\dev\olcNES\src\bus;C:\dev\olcNES\src\dependencies;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\dev\olcNES\src\olc6502;C:\dev\olcNES\src\bus;C:\dev\olcNES\src\dependencies;C:\dev\olcNES\src\olc2C02;C:\dev\olcNES\src\cartridge;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -121,7 +129,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\dev\olcNES\src\olc6502;C:\dev\olcNES\src\bus;C:\dev\olcNES\src\dependencies;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\dev\olcNES\src\olc6502;C:\dev\olcNES\src\bus;C:\dev\olcNES\src\dependencies;C:\dev\olcNES\src\olc2C02;C:\dev\olcNES\src\cartridge;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -136,7 +144,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\dev\olcNES\src\olc6502;C:\dev\olcNES\src\bus;C:\dev\olcNES\src\dependencies;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\dev\olcNES\src\olc6502;C:\dev\olcNES\src\bus;C:\dev\olcNES\src\dependencies;C:\dev\olcNES\src\olc2C02;C:\dev\olcNES\src\cartridge;C:\dev\olcNES\src\mapper;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -151,7 +159,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\dev\olcNES\src\olc6502;C:\dev\olcNES\src\bus;C:\dev\olcNES\src\dependencies;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\dev\olcNES\src\olc6502;C:\dev\olcNES\src\bus;C:\dev\olcNES\src\dependencies;C:\dev\olcNES\src\olc2C02;C:\dev\olcNES\src\cartridge;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

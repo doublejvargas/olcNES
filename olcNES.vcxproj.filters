@@ -13,27 +13,60 @@
     <Filter Include="dependencies">
       <UniqueIdentifier>{d7343ae8-284d-4a7b-91a7-99d74cf79c79}</UniqueIdentifier>
     </Filter>
+    <Filter Include="olc2C02">
+      <UniqueIdentifier>{9b62ef37-1641-4e85-90ee-b0cd165386b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cartridge">
+      <UniqueIdentifier>{a62386ea-a649-4442-981e-b0cc8c3dee0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mapper">
+      <UniqueIdentifier>{07473f0b-e112-4e87-8ebd-8ef8ac2252c9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\bus\Bus.cpp">
       <Filter>bus</Filter>
     </ClCompile>
-    <ClCompile Include="src\test\olcNes_Video1_6502.cpp">
-      <Filter>tests</Filter>
+    <ClCompile Include="src\cartridge\Cartridge.cpp">
+      <Filter>cartridge</Filter>
+    </ClCompile>
+    <ClCompile Include="src\olc2C02\olc2C02.cpp">
+      <Filter>olc2C02</Filter>
     </ClCompile>
     <ClCompile Include="src\olc6502\olc6502.cpp">
       <Filter>olc6502</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mapper\Mapper.cpp">
+      <Filter>mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mapper\Mapper_000.cpp">
+      <Filter>mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\test\olcNes_Video2_2C02.cpp">
+      <Filter>tests</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\bus\Bus.h">
       <Filter>bus</Filter>
     </ClInclude>
-    <ClInclude Include="src\olc6502\olc6502.h">
-      <Filter>olc6502</Filter>
+    <ClInclude Include="src\cartridge\Cartridge.h">
+      <Filter>cartridge</Filter>
     </ClInclude>
     <ClInclude Include="src\dependencies\olcPixelGameEngine.h">
       <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="src\olc2C02\olc2C02.h">
+      <Filter>olc2C02</Filter>
+    </ClInclude>
+    <ClInclude Include="src\olc6502\olc6502.h">
+      <Filter>olc6502</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mapper\Mapper.h">
+      <Filter>mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mapper\Mapper_000.h">
+      <Filter>mapper</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
